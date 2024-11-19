@@ -1,0 +1,17 @@
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.csproj.AssemblyReference.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.AssemblyInfoInputs.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.AssemblyInfo.cs
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCInfrastructure.deps.json
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCInfrastructure.runtimeconfig.json
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCInfrastructure.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCInfrastructure.pdb
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCDomain.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\bin\Debug\net8.0\LojaCCDomain.pdb
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCIn.2E8BDC2C.Up2Date
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\refint\LojaCCInfrastructure.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.pdb
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.genruntimeconfig.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\ref\LojaCCInfrastructure.dll

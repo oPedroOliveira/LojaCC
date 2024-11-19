@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phoa9\\Projetos\\LojaCC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45DC2D2B-4EF9-42E5-A569-8B6ADCDE91D5}|LojaCCApplication\\LojaCCApplication.csproj|c:\\users\\phoa9\\projetos\\lojacc\\lojaccapplication\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DC2D2B-4EF9-42E5-A569-8B6ADCDE91D5}|LojaCCApplication\\LojaCCApplication.csproj|solutionrelative:lojaccapplication\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DC2D2B-4EF9-42E5-A569-8B6ADCDE91D5}|LojaCCApplication\\LojaCCApplication.csproj|c:\\users\\phoa9\\projetos\\lojacc\\lojaccapplication\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DC2D2B-4EF9-42E5-A569-8B6ADCDE91D5}|LojaCCApplication\\LojaCCApplication.csproj|solutionrelative:lojaccapplication\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\phoa9\\Projetos\\LojaCC\\LojaCCApplication\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "LojaCCApplication\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\phoa9\\Projetos\\LojaCC\\LojaCCApplication\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "LojaCCApplication\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwK0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:29:39.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\phoa9\\Projetos\\LojaCC\\LojaCCApplication\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "LojaCCApplication\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\phoa9\\Projetos\\LojaCC\\LojaCCApplication\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "LojaCCApplication\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:22:34.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

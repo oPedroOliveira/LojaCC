@@ -1,0 +1,11 @@
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\bin\Debug\net8.0\LojaCCDomain.deps.json
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\bin\Debug\net8.0\LojaCCDomain.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\bin\Debug\net8.0\LojaCCDomain.pdb
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.AssemblyInfoInputs.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.AssemblyInfo.cs
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.csproj.CoreCompileInputs.cache
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\refint\LojaCCDomain.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.pdb
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\ref\LojaCCDomain.dll

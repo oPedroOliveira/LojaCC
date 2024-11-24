@@ -239,3 +239,4 @@ C:\Users\phoa9\Projetos\LojaCC\LojaCCApplication\bin\Debug\net8.0\runtimes\win\l
 C:\Users\phoa9\Projetos\LojaCC\LojaCCApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\phoa9\Projetos\LojaCC\LojaCCApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\phoa9\Projetos\LojaCC\LojaCCApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCApplication\obj\Debug\net8.0\LojaCCApplication.sourcelink.json

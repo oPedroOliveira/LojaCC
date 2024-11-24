@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaCCApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82158d855147a18de918f8a7d64be939879fa1ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaCCApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaCCApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

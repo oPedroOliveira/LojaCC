@@ -2,9 +2,13 @@
 {
     public class ItemPedido
     {
-        public required string ItemPedidoId { get; set; }
-        public required string PedidoId { get; set; }
-        public required string ItemId { get; set; }
+        public ItemPedido()
+        {
+            ItemPedidoId = Guid.NewGuid().ToString();
+        }
+        public string ItemPedidoId { get; set; }
+        public string PedidoId { get; set; }
+        public string ItemId { get; set; }
         public required int Quantidade { get; set; }
         public required float Valor { get; set; }
     }

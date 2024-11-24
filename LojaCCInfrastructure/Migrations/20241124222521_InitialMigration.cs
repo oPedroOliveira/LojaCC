@@ -25,13 +25,13 @@ namespace LojaCCInfrastructure.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     CPF = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    CEP = table.Column<string>(type: "longtext", nullable: false)
+                    CEP = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Cidade = table.Column<string>(type: "longtext", nullable: false)
+                    Cidade = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    UF = table.Column<string>(type: "longtext", nullable: false)
+                    UF = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Logradouro = table.Column<string>(type: "longtext", nullable: false)
+                    Logradouro = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>

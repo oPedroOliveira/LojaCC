@@ -53,7 +53,7 @@ namespace LojaCCApplication.Controllers
             return cliente;
         }
 
-        // GET: Cliente/Create
+        // POST: Cliente
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {

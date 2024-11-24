@@ -15,3 +15,4 @@ C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\refint\Loja
 C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.pdb
 C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.genruntimeconfig.cache
 C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\ref\LojaCCInfrastructure.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCInfrastructure\obj\Debug\net8.0\LojaCCInfrastructure.sourcelink.json

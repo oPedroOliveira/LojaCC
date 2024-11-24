@@ -2,7 +2,11 @@
 {
     public class Cliente
     {
-        public required string ClienteId { get; set; }
+        public Cliente()
+        {
+            ClienteId = Guid.NewGuid().ToString();
+        }
+        public string ClienteId { get; set; }
         public IList<Pedido>? Pedidos { get; set; }
         public required string Nome { get; set; }
         public required string Email { get; set; }

@@ -2,7 +2,11 @@
 {
     public class Item
     {
-        public required string ItemId { get; set; }
+        public Item()
+        {
+            ItemId = Guid.NewGuid().ToString();
+        }
+        public string ItemId { get; set; }
         public required int Quantidade { get; set; }
         public required float Preco { get; set; }
         public required string Nome { get; set; }

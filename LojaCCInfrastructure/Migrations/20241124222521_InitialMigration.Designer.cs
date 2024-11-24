@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LojaCCInfrastructure.Migrations
 {
     [DbContext(typeof(LojaCCApplicationContext))]
-    [Migration("20241116172016_ListsNullableEmClienteEItem")]
-    partial class ListsNullableEmClienteEItem
+    [Migration("20241124222521_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

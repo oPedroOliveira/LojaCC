@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using LojaCCDomain.Models;
+using Microsoft.EntityFrameworkCore.ValueGeneration;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LojaCCInfrastructure.Data
 {

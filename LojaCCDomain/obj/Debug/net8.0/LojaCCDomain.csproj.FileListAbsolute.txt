@@ -9,3 +9,4 @@ C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.dll
 C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\refint\LojaCCDomain.dll
 C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.pdb
 C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\ref\LojaCCDomain.dll
+C:\Users\phoa9\Projetos\LojaCC\LojaCCDomain\obj\Debug\net8.0\LojaCCDomain.sourcelink.json

@@ -50,6 +50,14 @@ namespace LojaCCApplication.Controllers
                 .Collection(c => c.Pedidos)
                 .LoadAsync();
 
+            if (cliente.Pedidos.Count > 0 && cliente.Pedidos != null)
+            {
+                foreach (var pedido in cliente.Pedidos)
+                {
+                    _context.ItemPedido.Where(i => i.PedidoId == pedido.PedidoId).ToList();
+                }
+            }
+
             return cliente;
         }
 

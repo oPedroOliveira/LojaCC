@@ -34,7 +34,7 @@ namespace LojaCCApplication.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return NotFound("Id inválido.");
             }
 
             var cliente = await _context.Cliente
@@ -42,7 +42,7 @@ namespace LojaCCApplication.Controllers
             
             if (cliente == null)
             {
-                return NotFound();
+                return NotFound("Ops... Não foi encontrado nenhum cliente com o Id informado!");
             }
 
             await _context
@@ -65,6 +65,11 @@ namespace LojaCCApplication.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {
+            if (ClienteExists(cliente.ClienteId))
+            {
+                return Conflict("Ops... Já existe um cliente com o Id informado!");
+            }
+
             _context.Cliente.Add(cliente);
 
             try
@@ -73,10 +78,7 @@ namespace LojaCCApplication.Controllers
             }
             catch (DbUpdateException)
             {
-                if (ClienteExists(cliente.ClienteId))
-                {
-                    return Conflict();
-                }
+                
             }
 
             return CreatedAtAction("GetCliente", new { id = cliente.ClienteId }, cliente);

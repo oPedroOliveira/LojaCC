@@ -34,7 +34,7 @@ namespace LojaCCApplication.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return NotFound("Ops... O id não pode ser nulo.");
             }
 
             var item = await _context.Item
@@ -42,7 +42,7 @@ namespace LojaCCApplication.Controllers
             
             if (item == null)
             {
-                return NotFound();
+                return NotFound("Ops... O não foi encontrado nenhum item cadastrado com este id.");
             }
 
             return item;
@@ -52,6 +52,11 @@ namespace LojaCCApplication.Controllers
         [HttpPost]
         public async Task<ActionResult<Item>> PostItem(Item item)
         {
+            if (ItemExists(item.ItemId))
+            {
+                return Conflict("Já existe um item com este mesmo ID cadastrado");
+            }
+            
             _context.Item.Add(item);
 
             try
@@ -60,10 +65,6 @@ namespace LojaCCApplication.Controllers
             }
             catch (DbUpdateException)
             {
-                if (ItemExists(item.ItemId))
-                {
-                    return Conflict();
-                }
             }
 
             return CreatedAtAction("GetItem", new { id = item.ItemId }, item);

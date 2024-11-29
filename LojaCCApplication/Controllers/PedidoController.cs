@@ -34,7 +34,7 @@ namespace LojaCCApplication.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return NotFound("O id não pode ser nulo.");
             }
 
             var pedido = await _context.Pedido
@@ -42,7 +42,7 @@ namespace LojaCCApplication.Controllers
             
             if (pedido == null)
             {
-                return NotFound();
+                return NotFound("Ops... Não foi encontrado nenhum pedido com o Id informado");
             }
 
             await _context
@@ -65,6 +65,11 @@ namespace LojaCCApplication.Controllers
         [HttpPost]
         public async Task<ActionResult<Pedido>> PostPedido(Pedido pedido)
         {
+            if (PedidoExists(pedido.PedidoId))
+            {
+                return Conflict("Parece que já existe um pedido com o Id informado");
+            }
+
             _context.Pedido.Add(pedido);
 
             try
@@ -73,10 +78,7 @@ namespace LojaCCApplication.Controllers
             }
             catch (DbUpdateException)
             {
-                if (PedidoExists(pedido.PedidoId))
-                {
-                    return Conflict();
-                }
+                
             }
 
             return CreatedAtAction("GetPedido", new { id = pedido.PedidoId }, pedido);

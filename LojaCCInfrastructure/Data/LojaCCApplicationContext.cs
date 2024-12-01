@@ -36,6 +36,11 @@ namespace LojaCCInfrastructure.Data
                 .HasForeignKey(x => x.ItemId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<Cliente>()
+                .HasOne(c => c.User)
+                .WithOne()
+                .HasForeignKey<User>(x => x.ClienteId);
+
             modelBuilder.Entity<Pedido>()
                 .Property(a => a.PedidoId);
 
@@ -53,6 +58,7 @@ namespace LojaCCInfrastructure.Data
         public DbSet<ItemPedido> ItemPedido { get; set; }
         public DbSet<Item> Item { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<User> User { get; set; }
 
 
     }

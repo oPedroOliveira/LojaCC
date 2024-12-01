@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LojaCCDomain.Models;
 using LojaCCInfrastructure.Data;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using System.Text.RegularExpressions;
 
 namespace LojaCCApplication.Controllers
 {
@@ -45,17 +47,21 @@ namespace LojaCCApplication.Controllers
                 return NotFound("Ops... Não foi encontrado nenhum cliente com o Id informado!");
             }
 
-            await _context
+                await _context
                 .Entry(cliente)
                 .Collection(c => c.Pedidos)
                 .LoadAsync();
 
-            if (cliente.Pedidos.Count > 0 && cliente.Pedidos != null)
+            if(cliente.Pedidos != null)
             {
-                foreach (var pedido in cliente.Pedidos)
+                if (cliente.Pedidos.Count > 0)
                 {
-                    _context.ItemPedido.Where(i => i.PedidoId == pedido.PedidoId).ToList();
+                    foreach (var pedido in cliente.Pedidos)
+                    {
+                        _context.ItemPedido.Where(i => i.PedidoId == pedido.PedidoId).ToList();
+                    }
                 }
+
             }
 
             return cliente;
@@ -70,15 +76,25 @@ namespace LojaCCApplication.Controllers
                 return Conflict("Ops... Já existe um cliente com o Id informado!");
             }
 
+            var senhaFormat = Regex.Replace(cliente.CPF, @"[^a-zA-Z0-9\s]", ""); 
+            senhaFormat = senhaFormat.Remove(8, 3);
+
+            cliente.User = new User()
+            {
+                ClienteId = cliente.ClienteId,
+                Email = cliente.Email,
+                Senha = senhaFormat
+            };
+
             _context.Cliente.Add(cliente);
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateException)
+            catch (DbUpdateException e)
             {
-                
+                throw e;
             }
 
             return CreatedAtAction("GetCliente", new { id = cliente.ClienteId }, cliente);

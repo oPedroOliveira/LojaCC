@@ -1,4 +1,6 @@
-﻿namespace LojaCCDomain.Models
+﻿using System.Text.RegularExpressions;
+
+namespace LojaCCDomain.Models
 {
     public class Cliente
     {
@@ -7,6 +9,7 @@
             ClienteId = Guid.NewGuid().ToString();
         }
         public string ClienteId { get; set; }
+        public User? User { get; set; }
         public IList<Pedido>? Pedidos { get; set; }
         public required string Nome { get; set; }
         public required string Email { get; set; }
